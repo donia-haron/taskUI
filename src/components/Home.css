@@ -1,0 +1,141 @@
+
+  
+  .tabs{
+    cursor: pointer; 
+font-size: 15px;  
+text-align: center;
+
+  }
+ 
+  .react-tabs {
+
+text-align: center;
+  }
+  
+  .react-tabs__tab-list {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    margin: 0;
+    padding: 0;
+    color: black;
+  text-align: center; 
+  }
+  
+  .react-tabs__tab {
+    height: 49px;
+    list-style: none;
+    padding: 12px 6px;
+    margin-left: 16px;
+    color: black;
+  }
+  
+  .react-tabs__tab--selected {
+    background: white;
+    border-bottom: 4px solid #256EFF;
+border-left:4px solid white;
+border-top: #FFFFFF;
+    color: #256EFF;
+  }
+  
+  .react-tabs__tab {
+
+    padding-left: 24px;
+  }
+  .react-tabs__tab--selected {
+    padding-left: 21px;
+  }
+
+  .search{
+margin-top: 32px;
+padding-right: 10px;
+padding-top: 15px;
+padding-bottom: 5px;
+padding-left: 24px;
+    width: 95%;
+    height: 40px;
+    margin-left: 36px;
+    margin-right: 36px;
+    display: inline-block;
+background: #F6F6F6;
+
+border-radius: 4px;
+  }
+.containers{
+   float: right;
+
+}
+.alert-container{
+    width: 50px;
+    height:50px;
+    float: right;
+}
+.next{
+    width: 95%;
+    height: 40px;
+    color:#A9ABB2;
+    margin-top: 33px;
+     padding-top: 20px;
+    margin-left: 36px;
+      }
+    
+.containers2{
+    height: 40px;
+     margin-top: -30px;
+       float: right;
+       color: #256EFF; 
+       cursor: pointer; 
+   }
+@media screen and (max-width: 768px) {
+    .containers{
+        float: left;
+        margin-right: 20px;
+    }
+    .containers2{
+        float: left;
+        margin-right: 20px;
+      
+    }
+}
+  .filtericon{
+    width: 100px;
+    height: 20px;
+font-size: 16;
+    color:  #000000;
+  }
+  .filtericon2{
+    width: 100px;
+    height: 20px;
+
+padding-left: 20px;
+font-size: 16;
+    color:  #000000;
+  }
+  input[type=text]{
+    text-align: center;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    width: 15px;
+    float: right;
+    color: #525252;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    border: 1px solid #464747;
+    border-radius: 5px;
+    background: linear-gradient(to right, #FFFFFF 0%,#464747 #F9F9F9 100%);
+    transition: width 0.4s ease;
+    outline: none;
+  }
+    input:focus{ width: 300px; }
+    input:hover{ width: 300px; }
+  
+  .i{
+    position: relative;
+    right: -27px;
+    width: 15px;
+    height: 15px;
+    bottom: -10px;
+    color:  #000000;
+  }
