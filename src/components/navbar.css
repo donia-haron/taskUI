@@ -33,7 +33,7 @@ font-weight: bold;
   }
 .logout{
 padding: 10px;
-background: pink;
+background:#F6F6F6;
 }
 button {
     position: relative;
@@ -49,18 +49,18 @@ background-color: white;
 align-items: center;
     }
     button:hover {
-        background: pink;
+        background: #F6F6F6;
         transform: translate(0, 0.25em);}
         button::before {
-          box-shadow: 0 0 0 2px pink, 0 0.5em 0 0 pink;
+          box-shadow: 0 0 0 2px #F6F6F6, 0 0.5em 0 0 #F6F6F6;
           transform: translate3d(0, 0.5em, -1em);
         }
       
         button:active {
-        background: pink;
+        background: #F6F6F6;
         transform: translate(0em, 0.75em);}
         button::before {
-          box-shadow: 0 0 0 2px pink, 0 0 pink;
+          box-shadow: 0 0 0 2px #F6F6F6, 0 0 #F6F6F6;
           transform: translate3d(0, 0, -1em);
         }
       .log{

@@ -2,6 +2,7 @@ import "./styles.css";
 import Navbar from "./components/Navbar";
 import React, { useState, useEffect } from 'react';
   
+import  logo from'./components/logo.svg';
 // Importing loader
 import PacmanLoader from "react-spinners/PacmanLoader";
 import HashLoader from "react-spinners/HashLoader";
@@ -20,18 +21,14 @@ function App() {
      }, 7000);
    }, []);
    
-   // Custom css for loader
-   const override = `
-   display: block;
-   background: black;
-   margin: 0 auto;
-   border-color: red;
- `;
+
   return isLoading ?  // If page is still loading then splash screen
  <div className="pacman">
-  {/* <PacmanLoader class="iam" color={'#36D7B7'} isLoading={isLoading}
-    css={override} size={100} /> */}
-    <HashLoader color="#d63636" size={100} isLoading={isLoading} />
+ <img className="logoload" src={logo}/>
+    <HashLoader color="#d63636" size={50} isLoading={isLoading} />
+    <HashLoader color="#d63636" size={50} isLoading={isLoading} />
+    <HashLoader color="#d63636" size={50} isLoading={isLoading} />
+   
     </div> :( 
     <>
     <Router>

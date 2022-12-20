@@ -9,6 +9,7 @@ import  rocket from'./rocket.svg';
 import  game from'./game.svg';
 import  logo from'./logo.svg';
 
+
 function Sidebar({ children }) {
   const [isOpen, setIsOpen] = useState(false);
   function Toggle() {
@@ -36,7 +37,7 @@ function Sidebar({ children }) {
   
   ];
   return (
-    <div className="container">
+    <div className="container" >
       <div style={{ width: isOpen ? "300px" : "70px" }} className="sidebar">
         <div className="top_section">
           {/* <h1 style={{ display: isOpen ? "block" : "none" }} className="logo">
